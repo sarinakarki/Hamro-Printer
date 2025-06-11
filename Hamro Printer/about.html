@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .wrapper2{
+    min-height: 20vh;
+    width: 100%;
+    background-image: url('/images/background4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+        }
+        body {
+              font-family: Arial, sans-serif;
+            }
+        
+            form {
+              width: 50%;
+              margin: auto;
+              margin-bottom: 5rem;
+            }
+        
+            label {
+              display: block;
+              margin-bottom: 8px;
+              color:rgba(0, 0, 0, 0.803);
+              font-weight: 600;
+            }
+        
+            input,textarea {
+              width: 100%;
+              padding: 8px;
+              margin-bottom: 16px;
+              box-sizing: border-box;
+              border-radius: 10px;
+              border: 1px solid gray;
+            }
+            select {
+              width: 100%;
+              padding: 8px;
+              margin-bottom: 16px;
+              box-sizing: border-box;
+            }
+            button {
+              background-color: rgba(0, 0, 0, 0.844);
+              color: white;
+              padding: 10px 15px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              width: 100%;
+            }
+        
+            button:hover {
+              background-color: rgba(0, 0, 0, 0.734);
+            }
+    </style>
+</head>
+<body>
+     <!-- navigation bar section -->
+     <section>
+        <div>
+            <nav class="header">
+                <a href="#"><img src="/images/Home/logo.png" class="logo" alt="" height="80"></a>
+                <div>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a class="active" href="About.html">About</a></li>
+                        <li><a href="research.html">Research</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+         <!---about section-->
+        <div class="bckimg">
+            <div class="wrapper">
+                <div class="test">
+                    <article>
+                        <h1> About Us</h1>
+                        <img src="/images/Home/logo.png">
+                        <h3>
+                            'Hamro Printer'
+                        </h3>
+                        <p> Welcome to Hamro Printer, your one-stop destination for quality printers in Nepal. 
+                            We envisioned Hamro Printer as more than just an e-commerce platform - it's a seamless digital marketplace dedicated to providing cutting-edge printing solutions. With a focus on user-friendly design and an intuitive interface, we aim to simplify your printer shopping experience. Our extensive catalog showcases a diverse range of printers, from reliable inkjets to high-performance laser printers, ensuring that businesses and individuals alike can find the perfect device to meet their specific needs. At Hamro Printer, we prioritize customer satisfaction, offering not only top-notch products but also a responsive support team ready to assist at every step. 
+                            Join us in revolutionizing the way you print, with Hamro Printer setting the standard for excellence in the Nepalese printing industry."
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <!---portfolio section-->
+            <div class="teamsection">
+              <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h1> Our Team</h1>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="teamcard">
+                    <!--First Image-->
+                    <div class="card">
+                        <div class="imagesection">
+                        <img src="/images/about/Krishal2.jpg">
+                        </div>
+                        <div class="content">
+                            <h3> Krishal Ale </h3>
+                            <h4> Team Leader</h4>
+                            <p> Passionate web developer and efficient project manager,
+                                seamlessly blends code and coordination to craft digital solutions that exceed expectations.
+                                Email Address : Krishalale11@gmail.com </p>
+                        </div>
+                    </div>
+                    <!--Second Image-->
+                    <div class="card">
+                        <div class="imagesection">
+                        <img src="/images/about/Sarina.jpg">
+                        </div>
+                        <div class="content">
+                            <h3> Sarina Karki </h3>
+                            <h4> Team Member</h4>
+                            <p> A creative front-end developer, transforms visions into visually stunning and interactive web experiences through
+                                mastery of HTML, CSS, and JavaScript.Email Address : karkisarina22@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <!--Third Image-->
+                    <div class="card">
+                        <div class="imagesection">
+                        <img src="/images/about/Niruta.jpg">
+                        </div>
+                        <div class="content">
+                            <h3> Niruta Adhikari </h3>
+                            <h4> Team Member</h4>
+                            <p> A dedicated front-end developer, transforms ideas into immersive digital experiences through elegant and responsive web designs.
+                                Email Address : Niruta2@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <!--Fourth Image-->
+                    <div class="card">
+                        <div class="imagesection">
+                        <img src="/images/about/Krish.jpg">
+                        </div>
+                        <div class="content">
+                            <h3> Krish Bikram Thapa </h3>
+                            <h4> Team Member</h4>
+                            <p>A visionary front-end developer and creative web designer transforming ideas into visually stunning and functionally seamless digital experiences. 
+                                Email Address : tkrish485@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div> 
+            <hr style="width: 80%; margin: auto;">
+            <form>
+                <p style="text-align: center; font-size: 20px; font-weight: 600; padding-bottom: 20px; margin-top: 2rem;">Fill up the form</p>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required placeholder="Enter your name">
+            
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required placeholder="Enter your address">
+            
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required placeholder="Enter your number">
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            
+                <div style="display: flex; justify-content: space-between;">
+                <label>Gender:</label>
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="other" name="gender" value="other" required>
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+            
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            <label for="textarea">Feedback Form</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter you feedbacks"></textarea>
+                <button type="submit" onclick="validateForm()">Submit</button>
+              </form>
+        <div class="wrapper2">
+        </div>
+        <!--footer section-->
+<div class="footer">
+    <div class="container3">
+        <div class="front">
+            <div class="footer-col1">
+                <img src="/images/Home/logo.png" width="50%">
+                <p>For Your Best Choice Of Technology</p>
+            </div>
+            <div class="footer-col2">
+                <h2>Useful Links</h2>
+                <ul>
+                 <li>About Us</li>
+                 <li>Blog Post</li>
+                 <li>Return Policy</li>
+                 <li>Offers</li>
+                </ul>
+            </div>
+                <div class="footer-col3">
+                <h2>Follow Us</h2>
+                <ul>
+                 <li>Facebook</li>
+                 <li>Instagram</li>
+                 <li>X</li>
+                 <li>You Tube</li>
+                </ul>
+        </div>
+    </div>
+</div>
+<hr>
+<p class="copyright">Copyright 2024 - Hamro Printer</p>
+</div>
+<script>
+    function validateForm() {
+      var fullName = document.getElementById('fullName').value;
+      var address = document.getElementById('address').value;
+      var phoneNumber = document.getElementById('phoneNumber').value;
+      var email = document.getElementById('email').value;
+      var gender = document.querySelector('input[name="gender"]:checked');
+      var dob = document.getElementById('dob').value;
+      var textarea = document.querySelector('textarea').value;
+
+      if (!fullName || !address || !phoneNumber || !email || !gender || !dob || !textarea) {
+        alert('Please fill in all fields.');
+      } else if (!isValidEmail(email)) {
+        alert('Please enter a valid email address.');
+      } else {
+        alert('Form submitted successfully:\n\n' +
+              'Full Name: ' + fullName + '\n' +
+              'Address: ' + address + '\n' +
+              'Phone Number: ' + phoneNumber + '\n' +
+              'Email: ' + email + '\n' +
+              'Gender: ' + gender.value + '\n' +
+              'Date of Birth: ' + dob + '\n' +
+              'TextArea: ' + textarea);
+      }
+    }
+
+    function isValidEmail(email) {
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+  </script>
+
+</body>
+</html>
